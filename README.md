@@ -16,7 +16,7 @@ TradePilot is currently available to its private testing group. Installation is 
 
 Version 1.0.2.0 has passed Microsoft Store certification and is published to private testers. It adds field examples and hover help, chart discovery, historical commission estimates per symbol, and monthly targets from 1% to 100%. Installation remains free during private testing.
 
-Version 1.0.4.0 has been submitted for private Store certification and is awaiting approval. It adds a step-by-step Admin guide inside the app, captures the current balance at activation as a fixed monthly target baseline, hides automatic setup inputs until manual information is needed, uses black payment text and increases chart-tool text by 20%. Refresh terminal companions through Connect account after installing the approved Store update.
+Version 1.0.4.0 has passed Microsoft Store certification and is published to the private testing group. It adds a step-by-step Admin guide inside the app, captures the current balance at activation as a fixed monthly target baseline, hides automatic setup inputs until manual information is needed, uses black payment text and increases chart-tool text by 20%. Refresh terminal companions through Connect account after installing the approved Store update.
 
 The Platforms catalogue lists TradingView, cTrader, NinjaTrader, Interactive Brokers, TradeStation, Binance, Bybit, Gate, OKX and Coinbase as **Planned**. These connectors are not implemented or available for trading. MT4 and MT5 remain the working connections.
 
