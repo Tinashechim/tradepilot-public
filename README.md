@@ -14,7 +14,7 @@ TradePilot is developed and supported as a commercial subscription service. Its 
 
 TradePilot is currently available to its private testing group. Installation is free during private testing; public subscription pricing has not been announced. A Microsoft account authorised for the test group is required to access the private Store listing.
 
-Version 1.0.1.0 is available to private testers. Version 1.0.2.0 adds field examples and hover help, chart discovery, historical commission estimates per symbol, and monthly targets from 1% to 100%. The update is being prepared for Microsoft Store certification.
+Version 1.0.1.0 is available to private testers. Version 1.0.2.0 adds field examples and hover help, chart discovery, historical commission estimates per symbol, and monthly targets from 1% to 100%. Version 1.0.2.0 has been submitted for Microsoft Store certification. It remains private and free to install during testing.
 
 ## Product features
 
