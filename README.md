@@ -14,13 +14,13 @@ TradePilot is developed and supported as a commercial subscription service. Its 
 
 TradePilot is currently available to its private testing group. Installation is free during private testing; public subscription pricing has not been announced. A Microsoft account authorised for the test group is required to access the private Store listing.
 
-The guided desktop setup update, version 1.0.1.0, has been submitted for Microsoft Store certification.
+Version 1.0.1.0 is available to private testers. Version 1.0.2.0 adds field examples and hover help, chart discovery, historical commission estimates per symbol, and monthly targets from 1% to 100%. The update is being prepared for Microsoft Store certification.
 
 ## Product features
 
 - Manage an MT4 or MT5 master and multiple follower accounts.
 - Size copied trades against each follower's balance.
-- Track monthly targets and payment status.
+- Track payment status and monthly targets at any whole percentage from 1% to 100%.
 - Send optional reminders through the user's email provider.
 - Connect accounts through the desktop app, with terminal detection, companion installation and saved connection settings in version 1.0.1.0.
 - Use the TradePilot position sizer, basket manager and Point Measurer in MetaTrader.
