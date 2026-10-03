@@ -22,6 +22,8 @@ The Platforms catalogue lists TradingView, cTrader, NinjaTrader, Interactive Bro
 
 ## Product features
 
+Version 1.0.7.0 was submitted for private Store certification on 3 October 2026. It distinguishes an enabled account from stopped copying and refreshes the account status immediately after changing its switch. Version 1.0.6.0 remains the published release until approval.
+
 - Manage an MT4 or MT5 master and multiple follower accounts.
 - Size copied trades against each follower's balance.
 - Track payment status and monthly targets at any whole percentage from 1% to 100%.
