@@ -20,7 +20,7 @@ Version 1.0.10.0 adds professional PDF payment reports with candlestick branding
 
 Version 1.0.11.0 corrects the command data filename, requires matching desktop and companion versions, and refreshes trading-permission guidance automatically. Matching native connections and management-command acknowledgement passed. A fresh demo OPEN reached the follower but was rejected because no fresh broker quote was available while markets were closed. End-to-end execution remains unverified.
 
-Version 1.0.12.0 was submitted for Microsoft certification on 3 October 2026. It keeps one Connect account action and adds a scrollable activation checklist after registration, with MT4/MT5 toolbar and F7 steps for every TradePilot chart. Manual confirmations are separate from automatically verified connection, advisor permission, follower history and current-month payment. Future platforms require their own activation guide before availability. Store-signed 1.0.12 startup remains pending.
+Version 1.0.12.0 was published and installed on 3 October 2026. It keeps one Connect account action and adds a scrollable activation checklist after registration, with MT4/MT5 toolbar and F7 steps for every TradePilot chart. Manual confirmations are separate from automatically verified connection, advisor permission, follower history and current-month payment. Future platforms require their own activation guide before availability. Store-signed 1.0.12 startup was verified.
 
 The Platforms catalogue lists TradingView, cTrader, NinjaTrader, Interactive Brokers, TradeStation, Binance, Bybit, Gate, OKX and Coinbase as **Planned**. These connectors are not implemented or available for trading. MT4 and MT5 remain the working connections.
 
@@ -43,7 +43,7 @@ From version 1.0.4.0, the monthly baseline is the follower's current balance whe
 
 Support and privacy enquiries: chimanikire.tc@gmail.com
 
-Validation includes 60 automated checks and clean native compilation. Version 1.0.10 packaged startup/PDF export passed. Version 1.0.11 Store-signed startup passed; the earlier unsigned startup was blocked by Windows Application Control and no protection was bypassed. MT5 automatic chart attachment and owner-chart failover passed; MT4 new-chart tools were user-confirmed and chart-closure continuity passed. The corrected command channel was acknowledged; actual end-to-end copying remains unverified until a demo test can execute with fresh quotes.
+Validation includes 70 automated checks and clean native compilation. Version 1.0.10 packaged startup/PDF export passed. Version 1.0.11 Store-signed startup passed; the earlier unsigned startup was blocked by Windows Application Control and no protection was bypassed. MT5 automatic chart attachment and owner-chart failover passed; MT4 new-chart tools were user-confirmed and chart-closure continuity passed. The corrected command channel was acknowledged; actual end-to-end copying remains unverified until a demo test can execute with fresh quotes.
 
 ## Next update: statements and administrative freezes
 
@@ -51,4 +51,6 @@ The next candidate adds downloadable/email PDF statements with one consistent br
 
 Freeze and Unfreeze require a reason and record the date, account number and a unique freeze reference in statements and payment logs. Every inactive account, including frozen accounts, is red. Freezing blocks new copied entries while existing positions remain managed; unfreezing does not replay skipped signals.
 
-The integrated admin guide explains these controls. The candidate passed 66 isolated checks and zero-error/warning MT4/MT5 compilation. Native statement-export verification and Store-signed candidate startup remain pending. These features are not yet available in the installed Store version.
+The integrated admin guide explains these controls. The candidate passed 70 isolated checks and zero-error/warning MT4/MT5 compilation. Native statement-export verification and Store-signed candidate startup remain pending. These features are not yet available in the installed Store version.
+
+The 1.0.14 candidate also adds account Country, audited edits, read-only account analytics and assets with tiers, analytics PDFs, Paid/Frozen/Due search, Active/Frozen/Due counts, automatic supported email-provider settings and purpose help on buttons. The admin guide explains these features.
