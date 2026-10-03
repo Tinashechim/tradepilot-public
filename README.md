@@ -56,3 +56,6 @@ The integrated admin guide explains these controls. The candidate passed 70 isol
 The 1.0.14 candidate also adds account Country, audited edits, read-only account analytics and assets with tiers, analytics PDFs, Paid/Frozen/Due search, Active/Frozen/Due counts, automatic supported email-provider settings and purpose help on buttons. The admin guide explains these features.
 
 Version 1.0.15 replaces CSV/text document exports with PDF-only View, Download and Email actions for payment logs, references, analytics and statements. Administrators may enter any recipient email addresses; saved recipients are not added to on-request emails. The updated candidate passed 71 checks. Email delivery and native history export remain to be validated.
+
+
+Admin and individual follower analytics share a branded PDF performance report: account facts and tiers, dated broker assets, monthly progress, recorded exit results, costs and instrument coverage. Unsupported return/risk metrics are clearly marked unavailable. Payment notices default to two days before broker month-end; an admin notification from the second opens selectable due accounts with editable reminder emails. All reports can be viewed, downloaded or emailed as PDFs.
