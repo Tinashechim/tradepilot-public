@@ -14,9 +14,11 @@ TradePilot is developed and supported as a commercial subscription service. Its 
 
 TradePilot is currently available to its private testing group. Installation is free during private testing; public subscription pricing has not been announced. A Microsoft account authorised for the test group is required to access the private Store listing.
 
-Version 1.0.9.0 is verified installed for private testing. It removes individual account switches: Paid approves the follower in the backend, each broker month requires payment approval, and copying requires a fresh authenticated master connection with terminal and advisor trading permissions. The app does not enable those permissions.
+Version 1.0.10.0 is published and verified installed for private testing. Paid approves the follower in the backend, each broker month requires payment approval, and copying requires a fresh authenticated master connection with terminal and advisor trading permissions. The app does not enable those permissions.
 
-Version 1.0.10.0 was submitted for certification on 3 October 2026. It adds professional PDF payment reports with candlestick branding, complete account details, date filters and page numbers, improves CSV headings, and explains Prepare connection and Open connection on hover or keyboard focus. It is awaiting Microsoft review.
+Version 1.0.10.0 adds professional PDF payment reports with candlestick branding, complete account details, date filters and page numbers, improves CSV headings, and explains Prepare connection and Open connection on hover or keyboard focus.
+
+Version 1.0.11.0 was submitted for Microsoft certification on 3 October 2026. It corrects the command data filename after demo testing exposed an unreadable command channel, requires matching desktop and companion versions, and automatically refreshes trading-permission guidance. Native command acknowledgement and end-to-end demo copying remain pending; the correction is not yet verified in the installed app.
 
 The Platforms catalogue lists TradingView, cTrader, NinjaTrader, Interactive Brokers, TradeStation, Binance, Bybit, Gate, OKX and Coinbase as **Planned**. These connectors are not implemented or available for trading. MT4 and MT5 remain the working connections.
 
@@ -39,4 +41,4 @@ From version 1.0.4.0, the monthly baseline is the follower's current balance whe
 
 Support and privacy enquiries: chimanikire.tc@gmail.com
 
-Validation includes 56 automated checks and packaged startup/PDF export. MT5 automatic chart attachment and owner-chart failover passed; MT4 new-chart tools were user-confirmed and chart-closure continuity passed. Actual end-to-end demo trade execution remains unverified.
+Validation includes 56 automated checks and clean native compilation. Version 1.0.10 packaged startup/PDF export passed. Version 1.0.11 unsigned startup was blocked by Windows Application Control and needs Store-signed verification. MT5 automatic chart attachment and owner-chart failover passed; MT4 new-chart tools were user-confirmed and chart-closure continuity passed. Demo copy tests exposed the command-channel fault; actual end-to-end copying remains unverified.
