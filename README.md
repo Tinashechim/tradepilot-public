@@ -54,3 +54,5 @@ Freeze and Unfreeze require a reason and record the date, account number and a u
 The integrated admin guide explains these controls. The candidate passed 70 isolated checks and zero-error/warning MT4/MT5 compilation. Native statement-export verification and Store-signed candidate startup remain pending. These features are not yet available in the installed Store version.
 
 The 1.0.14 candidate also adds account Country, audited edits, read-only account analytics and assets with tiers, analytics PDFs, Paid/Frozen/Due search, Active/Frozen/Due counts, automatic supported email-provider settings and purpose help on buttons. The admin guide explains these features.
+
+Version 1.0.15 replaces CSV/text document exports with PDF-only View, Download and Email actions for payment logs, references, analytics and statements. Administrators may enter any recipient email addresses; saved recipients are not added to on-request emails. The updated candidate passed 71 checks. Email delivery and native history export remain to be validated.
