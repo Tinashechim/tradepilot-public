@@ -38,4 +38,6 @@ From version 1.0.4.0, the monthly baseline is the follower's current balance whe
 ## Contact
 
 Support and privacy enquiries: chimanikire.tc@gmail.com
-Private Store version 1.0.5.0, approved and published, removes manual commission entry and uses consistent balance and stop-loss price-risk sizing in MT4, MT5 and the copier. Broker fees still affect actual results. Store-signed version 1.0.5.0 is installed; terminal restart and demo testing remain pending.
+Private Store version 1.0.5.0, approved and published, removes manual commission entry and uses consistent balance and stop-loss price-risk sizing in MT4, MT5 and the copier. Broker fees still affect actual results.
+
+Version 1.0.6.0 was submitted for Microsoft Store certification on 3 October 2026. It adds automatic chart tools on available existing/new charts while the desktop connection runs and improves Accounts text fitting, scrollbars and status readability. Existing advisors are preserved. Installation remains free for private testers. Version 1.0.5.0 remains published until the update is approved; restart and demo execution checks remain part of private testing.
