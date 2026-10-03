@@ -14,7 +14,7 @@ TradePilot is developed and supported as a commercial subscription service. Its 
 
 TradePilot is currently available to its private testing group. Installation is free during private testing; public subscription pricing has not been announced. A Microsoft account authorised for the test group is required to access the private Store listing.
 
-Version 1.0.11.0 is published and verified installed for private testing. Paid approves the follower in the backend, each broker month requires payment approval, and copying requires a fresh authenticated master connection with terminal and advisor trading permissions. The app does not enable those permissions.
+Version 1.0.12.0 is published and verified installed for private testing. Paid approves the follower in the backend, each broker month requires payment approval, and copying requires a fresh authenticated master connection with terminal and advisor trading permissions. The app does not enable those permissions.
 
 Version 1.0.10.0 adds professional PDF payment reports with candlestick branding, complete account details, date filters and page numbers, improves CSV headings, and explains Prepare connection and Open connection on hover or keyboard focus.
 
@@ -44,3 +44,11 @@ From version 1.0.4.0, the monthly baseline is the follower's current balance whe
 Support and privacy enquiries: chimanikire.tc@gmail.com
 
 Validation includes 60 automated checks and clean native compilation. Version 1.0.10 packaged startup/PDF export passed. Version 1.0.11 Store-signed startup passed; the earlier unsigned startup was blocked by Windows Application Control and no protection was bypassed. MT5 automatic chart attachment and owner-chart failover passed; MT4 new-chart tools were user-confirmed and chart-closure continuity passed. The corrected command channel was acknowledged; actual end-to-end copying remains unverified until a demo test can execute with fresh quotes.
+
+## Next update: statements and administrative freezes
+
+The next candidate adds downloadable/email PDF statements with one consistent branded layout. Entered trades are available on request. Broker-month-end statements contain two PDFs: outstanding subscription amount and closed trades for that month. Verified terminal history is required; offline periods wait for a fresh complete connection.
+
+Freeze and Unfreeze require a reason and record the date, account number and a unique freeze reference in statements and payment logs. Every inactive account, including frozen accounts, is red. Freezing blocks new copied entries while existing positions remain managed; unfreezing does not replay skipped signals.
+
+The integrated admin guide explains these controls. The candidate passed 66 isolated checks and zero-error/warning MT4/MT5 compilation. Native statement-export verification and Store-signed candidate startup remain pending. These features are not yet available in the installed Store version.
