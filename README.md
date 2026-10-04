@@ -10,7 +10,7 @@ TradePilot is a commercial subscription service available through [Microsoft Sto
 
 Version **1.0.19.0** is published for private testers and its Store installation was verified Status OK. Matching native connections and automatic master permission detection on/off passed with no positions. User checks confirmed pending controls, stable Analytics/footer, PDF view/download/email, search, Activity and advance-payment preview. These checks do not establish trade copying or scheduled execution success.
 
-Candidate **1.0.20.0** adds combined slave Analytics without individual sheets or Account report, currency-separated totals, Master Information before Report overview on PDFs, By Tinashe Chimanikire branding, visible Paid cancellation/final confirmation, removal of starting-month-unpaid and right-click copy/paste. 98 regression checks and isolated UI/PDF checks pass. Microsoft certification/publication and Store-signed 1.0.20 startup remain pending. Native companions are unchanged.
+**1.0.20.0**, submitted for certification on 4 October 2026 as Submission 17, adds combined slave Analytics without individual sheets or Account report, currency-separated totals, Master Information before Report overview on PDFs, By Tinashe Chimanikire branding, visible Paid cancellation/final confirmation, removal of starting-month-unpaid and right-click copy/paste. 98 regression checks and isolated UI/PDF checks pass. Microsoft certification/publication and Store-signed 1.0.20 startup remain pending. Native companions are unchanged.
 
 ## How it works
 
