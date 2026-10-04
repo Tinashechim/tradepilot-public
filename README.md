@@ -6,7 +6,7 @@ TradePilot is a Windows desktop subscription service for administering a master 
 
 ## Private testing
 
-Version 1.0.17.0 is published and was verified installed. Availability is limited to authorised private testers, with free installation during testing. Public subscription pricing has not been announced. Certification monitoring is paused.
+Version 1.0.18.0 is published for private testing. The last verified installed version is 1.0.17.0; installation of the new update is pending. Availability is limited to authorised private testers, with free installation during testing. Public subscription pricing has not been announced. Certification monitoring is paused.
 
 MT4 and MT5 use dedicated local terminals. Each simultaneous account needs its own installation; MT5 followers require hedging accounts. Logins and trading permissions remain under the user's control in the terminal. Paid followers require current broker-month approval and verified master readiness before copying. Existing positions are not replayed on first connection. End-to-end trade execution remains under validation.
 
@@ -21,15 +21,15 @@ MT4 and MT5 use dedicated local terminals. Each simultaneous account needs its o
 
 Broker records drive read-only assets and performance reports. Unsupported risk/return metrics are marked unavailable rather than estimated. Historical results do not predict future performance.
 
-## 1.0.18 candidate
+## Version 1.0.18
 
-The next candidate adds sequential connection preparation, verified terminal reply checks in Activity, clickable email delivery details, searchable Master/Slave Analytics tabs, statements within Analytics, and account totals excluding the master. Reports use consistent contained sections and account-holder headings.
+Version 1.0.18 adds sequential connection preparation, verified terminal reply checks in Activity, clickable email delivery details, searchable Master/Slave Analytics tabs, statements within Analytics, and account totals excluding the master. Reports use consistent contained sections and account-holder headings.
 
 Pending orders below Point Measurer use the four standard MT4 types, with volume, entry, optional SL/TP, broker-time scheduled placement and separate expiry. Toggling Point Measurer moves the panel while retaining inputs. A local schedule requires its chart/terminal to remain running, connected and trading-enabled; closing, restart or lost permission cancels it. Missed schedules are not replayed. Broker pending orders execute on their price condition. Unfilled pending orders are not copied; normal copying follows master execution.
 
 Analytics includes authenticated fresh pending-order details and historical best entry days/hours, wins/losses and a timing map. Timing groups need at least three completed trades; sample counts and imported costs are disclosed. These are historical observations, not predictions of favourable future trading times.
 
-The candidate passed 95 isolated regression checks and desktop layout checks. Both companions compile with zero errors and warnings; synthetic PDFs were rendered and reviewed. New native scheduled placement, broker acceptance, final chart layout, authenticated reply checks, Store-signed candidate startup and end-to-end copying remain to be tested. These changes are not yet installed through Store.
+The candidate passed 95 isolated regression checks and desktop layout checks. Both companions compile with zero errors and warnings; synthetic PDFs were rendered and reviewed. New native scheduled placement, broker acceptance, final chart layout, authenticated reply checks, Store-signed candidate startup and end-to-end copying remain to be tested. Publication was verified on 4 October 2026; installation and native validation are pending.
 
 ## Planned platforms
 
