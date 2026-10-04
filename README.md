@@ -2,37 +2,22 @@
 
 **By Tinashe Chimanikire**
 
-TradePilot is a Windows desktop subscription service for administering a master trading account and its followers, distributed through [Microsoft Store](https://apps.microsoft.com/detail/restricted/9NJ7TWJSJ56G). Its source remains private because TradePilot is a commercial subscription product. This public repository documents the project and contains no application source, compiled companions, credentials or customer data.
+TradePilot is a Windows desktop app for managing one master trading account and its followers through MT4/MT5. It brings together position sizing, basket management, Point Measurer, pending-order tools, payment approval, account analytics and PDF reports.
 
-## Private testing
+TradePilot is a commercial subscription service available through [Microsoft Store](https://apps.microsoft.com/detail/restricted/9NJ7TWJSJ56G). Its source code is private to protect the subscription product; this public repository explains the product and release status. Installation remains free during private testing.
 
-Version 1.0.18.0 is published for private testing and its Store installation was verified with Windows reporting Status OK. Availability is limited to authorised private testers, with free installation during testing. Public subscription pricing has not been announced. Certification monitoring is paused.
+## Release status
 
-MT4 and MT5 use dedicated local terminals. Each simultaneous account needs its own installation; MT5 followers require hedging accounts. Logins and trading permissions remain under the user's control in the terminal. Paid followers require current broker-month approval and verified master readiness before copying. Existing positions are not replayed on first connection. End-to-end trade execution remains under validation.
+Version **1.0.18.0** is published for private testers and its Store installation was verified. Both native connections returned verified replies with trading off; restarts, automatic chart attachment and connection continuity after original-chart closure were checked. These checks do not establish end-to-end trading or copying success.
 
-## Administration and reporting
+Candidate **1.0.19.0** is being prepared for certification. It adds one seven-step Add account flow with Next/Back and a separate trading-permission page; independent Pending Order ON/OFF and broker date/time selectors; stable Analytics and registered-account overview; advance paid periods with PDF receipts; shared Admin email/master phone report contacts; combined Activity; exact Paid/Frozen/Due search; and a fixed white name/version footer. 98 regression checks and isolated UI checks pass; MT4/MT5 companions compile without errors or warnings. Final Store-signed startup, native calendar/permission transfer, scheduled placement and demo execution remain pending.
 
-- Account registration, country, audited edits, payment references and dated freeze reasons.
-- Paid renews approval and resets the target baseline to that account's verified current broker balance; historical records remain searchable.
-- Whole-percentage follower tiers from 1% to 100%, representing stop thresholds rather than promised returns.
-- PDF statements, payment records, account analytics and dated connection audits, with View, Download and Email actions.
-- Configurable payment notices, selectable due-account reports and editable reminders through the user's email service.
-- Position Sizer, Basket Manager and Point Measurer chart tools, plus an integrated administrator guide and purpose help.
+## How it works
 
-Broker records drive read-only assets and performance reports. Unsupported risk/return metrics are marked unavailable rather than estimated. Historical results do not predict future performance.
+Each account uses a dedicated terminal. Add account guides installation and verifies an actual registered-account reply. Broker passwords stay in the terminal. Trading permission remains under the user’s control; Paid records approval without charging money. Future prepaid months capture their starting balance when their broker month begins.
 
-## Version 1.0.18
+Analytics includes read-only broker information, assigned tiers, recorded results, historical timing observations, account/payment audits and statements. Documents share one branded PDF layout and support View, Download and Email. Historical results are not predictions or promised returns.
 
-Version 1.0.18 adds sequential connection preparation, verified terminal reply checks in Activity, clickable email delivery details, searchable Master/Slave Analytics tabs, statements within Analytics, and account totals excluding the master. Reports use consistent contained sections and account-holder headings.
-
-Pending orders below Point Measurer use the four standard MT4 types, with volume, entry, optional SL/TP, broker-time scheduled placement and separate expiry. Toggling Point Measurer moves the panel while retaining inputs. A local schedule requires its chart/terminal to remain running, connected and trading-enabled; closing, restart or lost permission cancels it. Missed schedules are not replayed. Broker pending orders execute on their price condition. Unfilled pending orders are not copied; normal copying follows master execution.
-
-Analytics includes authenticated fresh pending-order details and historical best entry days/hours, wins/losses and a timing map. Timing groups need at least three completed trades; sample counts and imported costs are disclosed. These are historical observations, not predictions of favourable future trading times.
-
-The candidate passed 95 isolated regression checks and desktop layout checks. Both companions compile with zero errors and warnings; synthetic PDFs were rendered and reviewed. New native scheduled placement, broker acceptance, final chart layout, authenticated reply checks, Store-signed candidate startup and end-to-end copying remain to be tested. Publication and Store installation were verified on 4 October 2026; native validation is pending.
-
-## Planned platforms
-
-TradingView, cTrader, NinjaTrader, Interactive Brokers, TradeStation, Binance, Bybit, Gate, OKX and Coinbase are planned catalogue entries. Their trading connectors are not implemented.
+Only MT4 and MT5 hedging connectors are currently supported. Additional trading/crypto connectors require implementation and verification before release. Full demo open/copy/close, scheduled execution and SMTP delivery still require testing. Certification monitoring is paused.
 
 Support: chimanikire.tc@gmail.com
