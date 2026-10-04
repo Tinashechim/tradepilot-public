@@ -59,3 +59,7 @@ Version 1.0.15 replaces CSV/text document exports with PDF-only View, Download a
 
 
 Admin and individual follower analytics share a branded PDF performance report: account facts and tiers, dated broker assets, monthly progress, recorded exit results, costs and instrument coverage. Unsupported return/risk metrics are clearly marked unavailable. Payment notices default to two days before broker month-end; an admin notification from the second opens selectable due accounts with editable reminder emails. All reports can be viewed, downloaded or emailed as PDFs.
+
+### Improvements in preparation
+
+Total account counts, automatic broker-history setup, Paid starting-balance resets and dated connection audit PDFs with unique error IDs are in development. Older paid-period reports remain searchable per account. These changes have isolated regression and PDF checks; Store installation and native MT4 history validation are pending. Source remains private because TradePilot is a commercial subscription service distributed through Microsoft Store.
