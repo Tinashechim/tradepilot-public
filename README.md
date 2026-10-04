@@ -8,9 +8,9 @@ TradePilot is a commercial subscription service available through [Microsoft Sto
 
 ## Release status
 
-Version **1.0.18.0** is published for private testers and its Store installation was verified. Both native connections returned verified replies with trading off; restarts, automatic chart attachment and connection continuity after original-chart closure were checked. These checks do not establish end-to-end trading or copying success.
+Version **1.0.19.0** is published for private testers and its Store installation was verified Status OK. Matching native connections and automatic master permission detection on/off passed with no positions. User checks confirmed pending controls, stable Analytics/footer, PDF view/download/email, search, Activity and advance-payment preview. These checks do not establish trade copying or scheduled execution success.
 
-Version **1.0.19.0** was submitted for Microsoft certification on 4 October 2026 as Submission 16. Partner Center shows In certification; publication and installation remain pending. It adds one seven-step Add account flow with Next/Back and a separate trading-permission page; independent Pending Order ON/OFF and broker date/time selectors; stable Analytics and registered-account overview; advance paid periods with PDF receipts; shared Admin email/master phone report contacts; combined Activity; exact Paid/Frozen/Due search; and a fixed white name/version footer. 98 regression checks and isolated UI checks pass; MT4/MT5 companions compile without errors or warnings. Final Store-signed startup, native calendar/permission transfer, scheduled placement and demo execution remain pending.
+Candidate **1.0.20.0** adds combined slave Analytics without individual sheets or Account report, currency-separated totals, Master Information before Report overview on PDFs, By Tinashe Chimanikire branding, visible Paid cancellation/final confirmation, removal of starting-month-unpaid and right-click copy/paste. 98 regression checks and isolated UI/PDF checks pass. Microsoft certification/publication and Store-signed 1.0.20 startup remain pending. Native companions are unchanged.
 
 ## How it works
 
@@ -18,6 +18,6 @@ Each account uses a dedicated terminal. Add account guides installation and veri
 
 Analytics includes read-only broker information, assigned tiers, recorded results, historical timing observations, account/payment audits and statements. Documents share one branded PDF layout and support View, Download and Email. Historical results are not predictions or promised returns.
 
-Only MT4 and MT5 hedging connectors are currently supported. Additional trading/crypto connectors require implementation and verification before release. Full demo open/copy/close, scheduled execution and SMTP delivery still require testing. Certification monitoring is paused.
+Only MT4 and MT5 hedging connectors are currently supported. Additional trading/crypto connectors require implementation and verification before release. Full demo open/copy/close and scheduled execution still require testing. PDF email receipt was user-confirmed; unattended delivery still requires testing. Certification monitoring is paused.
 
 Support: chimanikire.tc@gmail.com
