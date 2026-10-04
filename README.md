@@ -2,15 +2,15 @@
 
 **By Tinashe Chimanikire**
 
-TradePilot is a Windows desktop app for managing one master trading account and its followers through MT4/MT5. It brings together position sizing, basket management, Point Measurer, pending-order tools, payment approval, account analytics and PDF reports.
+TradePilot is a Windows desktop app for managing one lead trading account and its followers through MT4/MT5. It brings together position sizing, basket management, Point Measurer, pending-order tools, payment approval, account analytics and PDF reports.
 
 TradePilot is a commercial subscription service available through [Microsoft Store](https://apps.microsoft.com/detail/restricted/9NJ7TWJSJ56G). Its source code is private to protect the subscription product; this public repository explains the product and release status. Installation remains free during private testing.
 
 ## Release status
 
-Version **1.0.19.0** is published for private testers and its Store installation was verified Status OK. Matching native connections and automatic master permission detection on/off passed with no positions. User checks confirmed pending controls, stable Analytics/footer, PDF view/download/email, search, Activity and advance-payment preview. These checks do not establish trade copying or scheduled execution success.
+Version **1.0.20.0** is published for private testers and installed Status OK was verified on 4 October 2026.
 
-**1.0.20.0**, submitted for certification on 4 October 2026 as Submission 17, adds combined slave Analytics without individual sheets or Account report, currency-separated totals, Master Information before Report overview on PDFs, By Tinashe Chimanikire branding, visible Paid cancellation/final confirmation, removal of starting-month-unpaid and right-click copy/paste. 98 regression checks and isolated UI/PDF checks pass. Microsoft certification/publication and Store-signed 1.0.20 startup remain pending. Native companions are unchanged.
+Version **1.0.21.0** was submitted for certification on 4 October 2026 as Submission 18. It adds Send Mail with multiple follower selection, editable recipients and messages, broadcast selection and a saved editable signature. Sender setup and reminders are inside Send Mail. Review terminal setup is a separate action after Edit account. Lead account and Follower account replace older role names; PDFs use Lead Account Information. MT4 preparation attaches tools to all eligible saved charts, preserving other advisors. Pending Order starts OFF and ON requires a manual click. Admin guide updated. 100 regression checks and isolated UI/outbox checks passed without sending real emails; both companions compile with zero errors and warnings. Store-signed startup and final native default-OFF refresh remain pending. No end-to-end trade execution success is claimed.
 
 ## How it works
 
