@@ -2,64 +2,37 @@
 
 **By Tinashe Chimanikire**
 
-TradePilot is a subscription service for managing a master trading account and its followers through a Windows desktop app, distributed through Microsoft Store. It works with dedicated MT4 and MT5 terminals.
+TradePilot is a Windows desktop subscription service for administering a master trading account and its followers, distributed through [Microsoft Store](https://apps.microsoft.com/detail/restricted/9NJ7TWJSJ56G). Its source remains private because TradePilot is a commercial subscription product. This public repository documents the project and contains no application source, compiled companions, credentials or customer data.
 
-## Why the source code is private
+## Private testing
 
-TradePilot is developed and supported as a commercial subscription service. Its source code is maintained in a private repository. This public repository shows that the project exists and explains the product; it does not contain application source code, compiled trading tools, credentials or customer data.
+Version 1.0.17.0 is published and was verified installed. Availability is limited to authorised private testers, with free installation during testing. Public subscription pricing has not been announced. Certification monitoring is paused.
 
-## Microsoft Store
+MT4 and MT5 use dedicated local terminals. Each simultaneous account needs its own installation; MT5 followers require hedging accounts. Logins and trading permissions remain under the user's control in the terminal. Paid followers require current broker-month approval and verified master readiness before copying. Existing positions are not replayed on first connection. End-to-end trade execution remains under validation.
 
-[TradePilot on Microsoft Store](https://apps.microsoft.com/detail/restricted/9NJ7TWJSJ56G)
+## Administration and reporting
 
-TradePilot is currently available to its private testing group. Installation is free during private testing; public subscription pricing has not been announced. A Microsoft account authorised for the test group is required to access the private Store listing.
+- Account registration, country, audited edits, payment references and dated freeze reasons.
+- Paid renews approval and resets the target baseline to that account's verified current broker balance; historical records remain searchable.
+- Whole-percentage follower tiers from 1% to 100%, representing stop thresholds rather than promised returns.
+- PDF statements, payment records, account analytics and dated connection audits, with View, Download and Email actions.
+- Configurable payment notices, selectable due-account reports and editable reminders through the user's email service.
+- Position Sizer, Basket Manager and Point Measurer chart tools, plus an integrated administrator guide and purpose help.
 
-Version 1.0.12.0 is published and verified installed for private testing. Paid approves the follower in the backend, each broker month requires payment approval, and copying requires a fresh authenticated master connection with terminal and advisor trading permissions. The app does not enable those permissions.
+Broker records drive read-only assets and performance reports. Unsupported risk/return metrics are marked unavailable rather than estimated. Historical results do not predict future performance.
 
-Version 1.0.10.0 adds professional PDF payment reports with candlestick branding, complete account details, date filters and page numbers, improves CSV headings, and explains Prepare connection and Open connection on hover or keyboard focus.
+## 1.0.18 candidate
 
-Version 1.0.11.0 corrects the command data filename, requires matching desktop and companion versions, and refreshes trading-permission guidance automatically. Matching native connections and management-command acknowledgement passed. A fresh demo OPEN reached the follower but was rejected because no fresh broker quote was available while markets were closed. End-to-end execution remains unverified.
+The next candidate adds sequential connection preparation, verified terminal reply checks in Activity, clickable email delivery details, searchable Master/Slave Analytics tabs, statements within Analytics, and account totals excluding the master. Reports use consistent contained sections and account-holder headings.
 
-Version 1.0.12.0 was published and installed on 3 October 2026. It keeps one Connect account action and adds a scrollable activation checklist after registration, with MT4/MT5 toolbar and F7 steps for every TradePilot chart. Manual confirmations are separate from automatically verified connection, advisor permission, follower history and current-month payment. Future platforms require their own activation guide before availability. Store-signed 1.0.12 startup was verified.
+Pending orders below Point Measurer use the four standard MT4 types, with volume, entry, optional SL/TP, broker-time scheduled placement and separate expiry. Toggling Point Measurer moves the panel while retaining inputs. A local schedule requires its chart/terminal to remain running, connected and trading-enabled; closing, restart or lost permission cancels it. Missed schedules are not replayed. Broker pending orders execute on their price condition. Unfilled pending orders are not copied; normal copying follows master execution.
 
-The Platforms catalogue lists TradingView, cTrader, NinjaTrader, Interactive Brokers, TradeStation, Binance, Bybit, Gate, OKX and Coinbase as **Planned**. These connectors are not implemented or available for trading. MT4 and MT5 remain the working connections.
+Analytics includes authenticated fresh pending-order details and historical best entry days/hours, wins/losses and a timing map. Timing groups need at least three completed trades; sample counts and imported costs are disclosed. These are historical observations, not predictions of favourable future trading times.
 
-## Product features
+The candidate passed 95 isolated regression checks and desktop layout checks. Both companions compile with zero errors and warnings; synthetic PDFs were rendered and reviewed. New native scheduled placement, broker acceptance, final chart layout, authenticated reply checks, Store-signed candidate startup and end-to-end copying remain to be tested. These changes are not yet installed through Store.
 
-- Manage an MT4 or MT5 master and multiple follower accounts.
-- Size copied trades against each follower's balance.
-- Track payment status and monthly targets at any whole percentage from 1% to 100%.
-- Send optional reminders through the user's email provider.
-- Connect accounts through the desktop app, with terminal detection, companion installation and saved connection settings in version 1.0.1.0.
-- Use the TradePilot position sizer, basket manager and Point Measurer in MetaTrader.
+## Planned platforms
 
-MT5 followers require hedging accounts. Each simultaneous account needs its own terminal installation. Broker login and trading permissions stay in MetaTrader.
+TradingView, cTrader, NinjaTrader, Interactive Brokers, TradeStation, Binance, Bybit, Gate, OKX and Coinbase are planned catalogue entries. Their trading connectors are not implemented.
 
-Monthly target settings do not promise returns. End-to-end broker copying is still being validated in demo testing.
-
-From version 1.0.4.0, the monthly baseline is the follower's current balance when copying first becomes ready. It remains fixed for that broker month; earlier closed/floating profit and subsequent deposits are excluded from target progress. Closure attempts can be delayed by broker rejections or closed markets.
-
-## Contact
-
-Support and privacy enquiries: chimanikire.tc@gmail.com
-
-Validation includes 70 automated checks and clean native compilation. Version 1.0.10 packaged startup/PDF export passed. Version 1.0.11 Store-signed startup passed; the earlier unsigned startup was blocked by Windows Application Control and no protection was bypassed. MT5 automatic chart attachment and owner-chart failover passed; MT4 new-chart tools were user-confirmed and chart-closure continuity passed. The corrected command channel was acknowledged; actual end-to-end copying remains unverified until a demo test can execute with fresh quotes.
-
-## Next update: statements and administrative freezes
-
-The next candidate adds downloadable/email PDF statements with one consistent branded layout. Entered trades are available on request. Broker-month-end statements contain two PDFs: outstanding subscription amount and closed trades for that month. Verified terminal history is required; offline periods wait for a fresh complete connection.
-
-Freeze and Unfreeze require a reason and record the date, account number and a unique freeze reference in statements and payment logs. Every inactive account, including frozen accounts, is red. Freezing blocks new copied entries while existing positions remain managed; unfreezing does not replay skipped signals.
-
-The integrated admin guide explains these controls. The candidate passed 70 isolated checks and zero-error/warning MT4/MT5 compilation. Native statement-export verification and Store-signed candidate startup remain pending. These features are not yet available in the installed Store version.
-
-The 1.0.14 candidate also adds account Country, audited edits, read-only account analytics and assets with tiers, analytics PDFs, Paid/Frozen/Due search, Active/Frozen/Due counts, automatic supported email-provider settings and purpose help on buttons. The admin guide explains these features.
-
-Version 1.0.15 replaces CSV/text document exports with PDF-only View, Download and Email actions for payment logs, references, analytics and statements. Administrators may enter any recipient email addresses; saved recipients are not added to on-request emails. The updated candidate passed 71 checks. Email delivery and native history export remain to be validated.
-
-
-Admin and individual follower analytics share a branded PDF performance report: account facts and tiers, dated broker assets, monthly progress, recorded exit results, costs and instrument coverage. Unsupported return/risk metrics are clearly marked unavailable. Payment notices default to two days before broker month-end; an admin notification from the second opens selectable due accounts with editable reminder emails. All reports can be viewed, downloaded or emailed as PDFs.
-
-### Improvements in preparation
-
-Total account counts, automatic broker-history setup, Paid starting-balance resets and dated connection audit PDFs with unique error IDs are in development. Older paid-period reports remain searchable per account. These changes have isolated regression and PDF checks; Store installation and native MT4 history validation are pending. Source remains private because TradePilot is a commercial subscription service distributed through Microsoft Store.
+Support: chimanikire.tc@gmail.com
