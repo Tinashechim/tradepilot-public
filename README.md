@@ -8,9 +8,9 @@ TradePilot is a commercial subscription service available through [Microsoft Sto
 
 ## Release status
 
-Version **1.0.21.0** is published for private testers and installed Status OK was verified on 4 October 2026.
+Version **1.0.22.0** is published for private testers and installed Status OK was verified on 4 October 2026.
 
-Version **1.0.22.0**, submitted for certification on 4 October 2026 as Submission 19, adds Current period / Date range selection before Analytics and inclusive broker exit-date filtering, with the selected range on screen and PDF reports. Current balances remain clearly labelled snapshots. Generated PDFs retain TradePilot branding without the personal author line. Total accounts, Paid and native messages use Lead account / Follower account labels. Every ordinary app closure warns about stopped copying and email delivery. Windows session handling provides an ordinary shutdown warning; forced shutdown, killed processes and power loss may bypass it. It never initiates shutdown or closes broker trades. The Admin guide is updated. 103 regression checks and isolated UI, range-PDF and native Windows-message checks passed without shutting down the computer or executing trades. Both companions compile with zero errors and warnings. Store-signed 1.0.22 startup and final native display refresh remain pending.
+Version **1.0.23.0**, submitted on 4 October 2026 as Submission 20, moves Point Measurer and Pending Order beside the main left-hand grid in one adjacent column on both MT4 and MT5. Pending Order sits below the measurer and moves up when the measurer is hidden. The automatic width calculation includes both columns. Pending Order still starts OFF. Both updated companions compile with zero errors and warnings and package contents match the current tools and guide. Native visual verification and Store-signed 1.0.23 startup remain pending; no trading permissions or actual account flags were changed.
 
 ## How it works
 
