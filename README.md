@@ -8,9 +8,9 @@ TradePilot is a commercial subscription service available through [Microsoft Sto
 
 ## Release status
 
-Version **1.0.20.0** is published for private testers and installed Status OK was verified on 4 October 2026.
+Version **1.0.21.0** is published for private testers and installed Status OK was verified on 4 October 2026.
 
-Version **1.0.21.0** was submitted for certification on 4 October 2026 as Submission 18. It adds Send Mail with multiple follower selection, editable recipients and messages, broadcast selection and a saved editable signature. Sender setup and reminders are inside Send Mail. Review terminal setup is a separate action after Edit account. Lead account and Follower account replace older role names; PDFs use Lead Account Information. MT4 preparation attaches tools to all eligible saved charts, preserving other advisors. Pending Order starts OFF and ON requires a manual click. Admin guide updated. 100 regression checks and isolated UI/outbox checks passed without sending real emails; both companions compile with zero errors and warnings. Store-signed startup and final native default-OFF refresh remain pending. No end-to-end trade execution success is claimed.
+Version **1.0.22.0**, submitted for certification on 4 October 2026 as Submission 19, adds Current period / Date range selection before Analytics and inclusive broker exit-date filtering, with the selected range on screen and PDF reports. Current balances remain clearly labelled snapshots. Generated PDFs retain TradePilot branding without the personal author line. Total accounts, Paid and native messages use Lead account / Follower account labels. Every ordinary app closure warns about stopped copying and email delivery. Windows session handling provides an ordinary shutdown warning; forced shutdown, killed processes and power loss may bypass it. It never initiates shutdown or closes broker trades. The Admin guide is updated. 103 regression checks and isolated UI, range-PDF and native Windows-message checks passed without shutting down the computer or executing trades. Both companions compile with zero errors and warnings. Store-signed 1.0.22 startup and final native display refresh remain pending.
 
 ## How it works
 
