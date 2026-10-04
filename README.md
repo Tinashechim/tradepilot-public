@@ -6,7 +6,7 @@ TradePilot is a Windows desktop subscription service for administering a master 
 
 ## Private testing
 
-Version 1.0.18.0 is published for private testing. The last verified installed version is 1.0.17.0; installation of the new update is pending. Availability is limited to authorised private testers, with free installation during testing. Public subscription pricing has not been announced. Certification monitoring is paused.
+Version 1.0.18.0 is published for private testing and its Store installation was verified with Windows reporting Status OK. Availability is limited to authorised private testers, with free installation during testing. Public subscription pricing has not been announced. Certification monitoring is paused.
 
 MT4 and MT5 use dedicated local terminals. Each simultaneous account needs its own installation; MT5 followers require hedging accounts. Logins and trading permissions remain under the user's control in the terminal. Paid followers require current broker-month approval and verified master readiness before copying. Existing positions are not replayed on first connection. End-to-end trade execution remains under validation.
 
@@ -29,7 +29,7 @@ Pending orders below Point Measurer use the four standard MT4 types, with volume
 
 Analytics includes authenticated fresh pending-order details and historical best entry days/hours, wins/losses and a timing map. Timing groups need at least three completed trades; sample counts and imported costs are disclosed. These are historical observations, not predictions of favourable future trading times.
 
-The candidate passed 95 isolated regression checks and desktop layout checks. Both companions compile with zero errors and warnings; synthetic PDFs were rendered and reviewed. New native scheduled placement, broker acceptance, final chart layout, authenticated reply checks, Store-signed candidate startup and end-to-end copying remain to be tested. Publication was verified on 4 October 2026; installation and native validation are pending.
+The candidate passed 95 isolated regression checks and desktop layout checks. Both companions compile with zero errors and warnings; synthetic PDFs were rendered and reviewed. New native scheduled placement, broker acceptance, final chart layout, authenticated reply checks, Store-signed candidate startup and end-to-end copying remain to be tested. Publication and Store installation were verified on 4 October 2026; native validation is pending.
 
 ## Planned platforms
 
