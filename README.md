@@ -8,7 +8,7 @@ TradePilot is a commercial subscription service available through [Microsoft Sto
 
 ## Release status
 
-Store version **1.0.24.0** is published and installed with Windows Status OK, verified on 5 October 2026. Version **1.0.25.0** is prepared as Submission 22 (1152921505702041436). It removes automatic follower chart opening, recovers matching unresponsive chart companions, adds typed dropdown suggestions, expanded word searches, lead-first ordering/appointment counts, mandatory company or account holder identity in Add account only, and one-minute follower outage alerts with analytics/reconnection records. All 113 regressions and isolated UI checks pass; both companions compile with zero errors/warnings. Sample PDF layout is visually verified. Native companion recovery, signed 1.0.25 startup and actual alert delivery remain pending. Certification monitor remains paused.
+Store version **1.0.24.0** is published and installed with Windows Status OK, verified on 5 October 2026. Version **1.0.25.0** was submitted for certification on 5 October 2026 as Submission 22 (1152921505702041436). It removes automatic follower chart opening, recovers matching unresponsive chart companions, adds typed dropdown suggestions, expanded word searches, lead-first ordering/appointment counts, mandatory company or account holder identity in Add account only, and one-minute follower outage alerts with analytics/reconnection records. All 113 regressions and isolated UI checks pass; both companions compile with zero errors/warnings. Sample PDF layout is visually verified. Native companion recovery, signed 1.0.25 startup and actual alert delivery remain pending. Certification monitor remains paused.
 
 ## How it works
 
