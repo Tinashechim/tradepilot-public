@@ -8,9 +8,9 @@ TradePilot is a commercial subscription service available through [Microsoft Sto
 
 ## Release status
 
-Version **1.0.22.0** is published for private testers and installed Status OK was verified on 4 October 2026.
+Version **1.0.23.0** is published for private testers and installed Status OK was verified on 5 October 2026.
 
-Version **1.0.23.0**, submitted on 4 October 2026 as Submission 20, moves Point Measurer and Pending Order beside the main left-hand grid in one adjacent column on both MT4 and MT5. Pending Order sits below the measurer and moves up when the measurer is hidden. The automatic width calculation includes both columns. Pending Order still starts OFF. Both updated companions compile with zero errors and warnings and package contents match the current tools and guide. Native visual verification and Store-signed 1.0.23 startup remain pending; no trading permissions or actual account flags were changed.
+Version **1.0.24.0**, submitted on 5 October 2026 as Submission 21, adds automatic authenticated lead-to-follower symbol/timeframe chart opening; optional Admin company details and a centred company logo on PDFs with TradePilot at the bottom centre; mandatory country and phone-code selectors; a confirmed follower-to-lead replacement; planned stop-loss Spread ON/OFF controls; and exact trade-attempt error PDFs linked from Activity. The Admin guide is updated. All 108 regression checks pass and both native companions compile with zero errors and warnings. Native chart mirroring/spread-control checks, Store-signed 1.0.24 startup and end-to-end demo execution remain pending. Broker-server automated-trading restrictions cannot be overridden by the app. No actual account roles, payments or trading permissions were changed during development.
 
 ## How it works
 
